@@ -1,2 +1,3 @@
-# Student-manager-
+# Student-manager
 学生信息管理系统
+该系统为简单的学生信息管理系统，实现增删改查的功能
