@@ -12,7 +12,7 @@
 	String password="123456";
 	String add_no=request.getParameter("del_no");
 	
-	String url="jdbc:mysql://localhost:3306/";
+	String url="jdbc:mysql://localhost:3306/";  //该处需要自建一个数据库，并输入数据库的命名。//
 	Class.forName("com.mysql.jdbc.Driver");
 	Connection con=DriverManager.getConnection(url, user, password);
 	/* Statement state=con.createStatement(); */
